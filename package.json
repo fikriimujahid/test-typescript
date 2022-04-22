@@ -2,7 +2,6 @@
   "name": "connected-freight-be-take-home-assignment",
   "version": "0.0.0",
   "scripts": {
-    "build": "tsc",
     "test": "jest"
   },
   "devDependencies": {

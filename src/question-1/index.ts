@@ -1,7 +1,14 @@
-import { Question1Input } from './models/input';
-import { Question1Output } from './models/output';
+import { UserInput } from './models/input';
+import { IUser } from './models/output';
 
-export function question1(input: Question1Input): Question1Output {
-  // TODO: Your code here
-  return {};
+export function mapUserInputToDomainModel(input: UserInput): IUser {
+  // TODO: Implement and replace the return object
+  return {
+    id: 'john@example.com',
+    name: 'John Doe',
+    phoneNumber: '1234567890',
+    emailAddress: 'john@example.com',
+    dateOfBirth: new Date(1990, 1, 1),
+    ageToday: 32,
+  };
 }
