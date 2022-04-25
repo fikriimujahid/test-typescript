@@ -9,7 +9,7 @@ export function getCourseScoreMetrics(input: CourseScores): CourseScoreMetrics {
       { assignmentName: 'Assignment 1', maxScore: 0, minScore: 0, meanScore: 0, medianScore: 0 },
       { assignmentName: 'Assignment 2', maxScore: 0, minScore: 0, meanScore: 0, medianScore: 0 },
     ],
-    students: [
+    sortedStudentScores: [
       { studentName: 'Student 1', totalScore: 0, weightedPercentage: 0 },
       { studentName: 'Student 2', totalScore: 0, weightedPercentage: 0 },
     ],
@@ -17,6 +17,6 @@ export function getCourseScoreMetrics(input: CourseScores): CourseScoreMetrics {
     minWeightedPercentage: 0,
     meanWeightedPercentage: 0,
     medianWeightedPercentage: 0,
-    perCourseMedianWeightedPercentage: 0,
+    perAssignmentMedianWeightedPercentage: 0,
   };
 }

@@ -26,7 +26,7 @@ export interface AssignmentScores {
    * All of the weights of every assignment should add up to 100 for the entire course.
    * Valid range: 0 - 100.
    */
-  weight: number;
+  weightInPercent: number;
 
   /**
    * List of students and their scores for the assignment.

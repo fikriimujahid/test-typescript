@@ -13,7 +13,7 @@ export interface CourseScoreMetrics {
    * List of students in the course, with metrics of students' individual performance.
    * Sorted by the students' weightedPercentage, from highest to lowest.
    */
-  students: StudentScoreMetrics[];
+  sortedStudentScores: StudentScoreMetrics[];
 
   /**
    * Highest weighted percentage achieved by a student for the course.
@@ -43,7 +43,7 @@ export interface CourseScoreMetrics {
    * Median per course weighted percentage achieved by any student for the course.
    * Should be the sum of each assignment's ((median score / max possible score) * weight).
    */
-  perCourseMedianWeightedPercentage: number;
+  perAssignmentMedianWeightedPercentage: number;
 }
 
 export interface AssignmentScoreMetrics {

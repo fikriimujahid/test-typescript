@@ -10,7 +10,7 @@ describe('Question 2', () => {
         {
           assignmentName: 'Verdimillious Charm',
           maxPossibleScore: 10,
-          weight: 20,
+          weightInPercent: 20,
           studentScores: [
             { studentName: 'Harry Potter', score: 9 },
             { studentName: 'Hermione Granger', score: 10 },
@@ -22,7 +22,7 @@ describe('Question 2', () => {
         {
           assignmentName: 'Homorphus Charm',
           maxPossibleScore: 10,
-          weight: 30,
+          weightInPercent: 30,
           studentScores: [
             { studentName: 'Ginny Weasley', score: 7 },
             { studentName: 'Draco Malfoy', score: 2 },
@@ -34,7 +34,7 @@ describe('Question 2', () => {
         {
           assignmentName: 'Full Body-Bind Curse',
           maxPossibleScore: 20,
-          weight: 50,
+          weightInPercent: 50,
           studentScores: [
             { studentName: 'Ron Weasley', score: 12 },
             { studentName: 'Hermione Granger', score: 19 },
@@ -53,7 +53,7 @@ describe('Question 2', () => {
         { assignmentName: 'Homorphus Charm', maxScore: 9.5, minScore: 2, meanScore: 6.7, medianScore: 7 },
         { assignmentName: 'Full Body-Bind Curse', maxScore: 19, minScore: 0, meanScore: 11, medianScore: 12 },
       ],
-      students: [
+      sortedStudentScores: [
         { studentName: 'Hermione Granger', totalScore: 38.5, weightedPercentage: 96 },
         { studentName: 'Ginny Weasley', totalScore: 31, weightedPercentage: 77 },
         { studentName: 'Ron Weasley', totalScore: 26, weightedPercentage: 66 },
@@ -64,7 +64,7 @@ describe('Question 2', () => {
       minWeightedPercentage: 34,
       meanWeightedPercentage: 62.4,
       medianWeightedPercentage: 66,
-      perCourseMedianWeightedPercentage: 67,
+      perAssignmentMedianWeightedPercentage: 67,
     };
 
     const result = getCourseScoreMetrics(input);
