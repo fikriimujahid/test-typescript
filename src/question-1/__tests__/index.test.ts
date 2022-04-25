@@ -18,7 +18,7 @@ describe('Question 1', () => {
     });
   });
 
-  it('Should return correct age based on the dateOfBirth', () => {
+  it('Should return correct ageToday based on the dateOfBirth', () => {
     const result = mapUserInputToDomainModel({
       name: 'John Doe',
       phoneNumber: '1234567890',
