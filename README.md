@@ -14,12 +14,12 @@ Each question folder has instructions and expectations. Please try to follow the
 
 Key things we are focusing on are:
 
-- [ ] Follow best practices.
-- [ ] Code readability.
-- [ ] Code structure.
-- [ ] Naming of parameters, functions, types, classes, and fields.
-- [ ] OOP concepts.
-- [ ] Appropriate use of comments.
+- [x] Follow best practices.
+- [x] Code readability.
+- [x] Code structure.
+- [x] Naming of parameters, functions, types, classes, and fields.
+- [x] OOP concepts.
+- [x] Appropriate use of comments.
 
 ---
 
