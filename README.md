@@ -44,6 +44,24 @@ git push origin main
 ```
 Now you can work with it just like any other GitHub repo.
 
+### 4. Setup development environment
+
+#### Install development tools
+The following tools are required:
+1. [Node.js](https://nodejs.org/en/)
+2. [Yarn 1](https://classic.yarnpkg.com/en/docs/install)
+3. A TypeScript-compatible IDE (We suggest [Visual Studio Code](https://code.visualstudio.com/))
+
+#### Install project dependencies
+```
+yarn install
+```
+
+#### Run tests
+```
+yarn test
+```
+
 ---
 
 ## Submission
