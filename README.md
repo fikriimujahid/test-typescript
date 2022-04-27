@@ -8,7 +8,7 @@ There are 2 questions in total for this assignment, and should take no more than
 - [Question 1](https://github.com/connected-freight/be-take-home-assignment/tree/main/src/question-1)
 - [Question 2](https://github.com/connected-freight/be-take-home-assignment/tree/main/src/question-2)
 
-Each question folder has instructions and expectations. Please try to follow them and let us know, if you have any issues/concerns.
+Each question folder has instructions and expectations. Please try to follow them and let us know, if you have any issues/concerns. You are only expected to spend 30 mins on Question 1, 60 mins on Question 2, and submit what you have done so far, to not take up too much of your time. You may take longer if you like 😊
 
 ---
 
@@ -18,8 +18,36 @@ Key things we are focusing on are:
 - [x] Code readability.
 - [x] Code structure.
 - [x] Naming of parameters, functions, types, classes, and fields.
-- [x] OOP concepts.
+- [x] OOP/FP concepts.
 - [x] Appropriate use of comments.
+
+---
+
+## Getting started
+As GitHub does not allow the forking of public repos to private repos, what you need to do instead is to clone this repo into a new personal private repo.
+
+### 1. Create a new private repo
+When creating a new private repo in GitHub, name the repo anyway you like (but preferably `cf-be-take-home-assignment` if you want to follow the instructions below as it is), set it to private, and **do not initialize the repository with anything**.
+
+### 2. Clone this repo to your local filesystem
+```
+git clone https://github.com/connected-freight/be-take-home-assignment.git cf-be-take-home-assignment
+```
+
+### 3. Add your remote and push
+Assuming that you are using `cf-be-take-home-assignment` as your repo name:
+```
+cd cf-be-take-home-assignment
+git remote rename origin upstream
+git remote add origin https://github.com/<your-username>/cf-be-take-home-assignment.git
+git push origin main
+```
+Now you can work with it just like any other GitHub repo.
+
+---
+
+## Submission
+When you are ready to submit, push all of your changes, and add `calvin@connectedfreight.com` as a collaborator to your repo for grading 😊
 
 ---
 
