@@ -6,7 +6,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: '1234567890',
       emailAddress: 'john@example.com',
-      dateOfBirth: '1990-01-01',
+      dateOfBirth: '1990-02-21',
     });
 
     expect(result).toMatchObject({
@@ -14,7 +14,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: '1234567890',
       emailAddress: 'john@example.com',
-      dateOfBirth: new Date(1990, 1, 1),
+      dateOfBirth: new Date(1990, 1, 21),
     });
   });
 
@@ -23,7 +23,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: '1234567890',
       emailAddress: 'john@example.com',
-      dateOfBirth: '1990-01-01',
+      dateOfBirth: '1990-02-21',
     });
 
     expect(result.ageToday).toEqual(32);
@@ -34,7 +34,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: null,
       emailAddress: 'john@example.com',
-      dateOfBirth: '1990-01-01',
+      dateOfBirth: '1990-02-21',
     });
 
     expect(result).toMatchObject({
@@ -42,7 +42,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: null,
       emailAddress: 'john@example.com',
-      dateOfBirth: new Date(1990, 1, 1),
+      dateOfBirth: new Date(1990, 1, 21),
     });
   });
 
@@ -51,7 +51,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: '1234567890',
       emailAddress: null,
-      dateOfBirth: '1990-01-01',
+      dateOfBirth: '1990-02-21',
     });
 
     expect(result).toMatchObject({
@@ -59,7 +59,7 @@ describe('Question 1', () => {
       name: 'John Doe',
       phoneNumber: '1234567890',
       emailAddress: null,
-      dateOfBirth: new Date(1990, 1, 1),
+      dateOfBirth: new Date(1990, 1, 21),
     });
   });
 
@@ -69,7 +69,7 @@ describe('Question 1', () => {
         name: '',
         phoneNumber: '1234567890',
         emailAddress: 'john@example.com',
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
@@ -80,7 +80,7 @@ describe('Question 1', () => {
         name: null,
         phoneNumber: '1234567890',
         emailAddress: 'john@example.com',
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
@@ -91,7 +91,7 @@ describe('Question 1', () => {
         name: 'John Doe',
         phoneNumber: undefined,
         emailAddress: undefined,
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
@@ -102,7 +102,7 @@ describe('Question 1', () => {
         name: 'John Doe',
         phoneNumber: '12345678',
         emailAddress: 'john@example.com',
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
@@ -113,7 +113,7 @@ describe('Question 1', () => {
         name: 'John Doe',
         phoneNumber: '123456abcd',
         emailAddress: null,
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
@@ -124,7 +124,7 @@ describe('Question 1', () => {
         name: 'John Doe',
         phoneNumber: '1234567890',
         emailAddress: 'john@example@com',
-        dateOfBirth: '1990-01-01',
+        dateOfBirth: '1990-02-21',
       });
     }).toThrow();
   });
