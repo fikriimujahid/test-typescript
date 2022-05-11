@@ -27,7 +27,7 @@ Key things we are focusing on are:
 As GitHub does not allow the forking of public repos to private repos, what you need to do instead is to clone this repo into a new personal private repo.
 
 ### 1. Create a new private repo
-When creating a new private repo in GitHub, name the repo anyway you like (but preferably `cf-be-take-home-assignment` if you want to follow the instructions below as it is), set it to private, and **do not initialize the repository with anything**.
+When creating a new private repo in GitHub, name the repo any way you like (but preferably `cf-be-take-home-assignment` if you want to follow the instructions below as it is), set it to private, and **do not initialize the repository with anything**.
 
 ### 2. Clone this repo to your local filesystem
 ```
