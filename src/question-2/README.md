@@ -2,7 +2,7 @@
 
 ## Objectives
 The assessment objectives of this question are as follows:
-- Knowledge of code complexity.
+- Knowledge of time complexity.
 - Follows best practices.
 - Code readability.
 - Appropriate code structure.
@@ -11,7 +11,7 @@ The assessment objectives of this question are as follows:
 - Appropriate use of comments.
 
 ## Instructions
-In this scenario, we have a user input that contains the assignments and raw scores of students for a particular course, and we would like to calculate metrics to give an overview of the performance of the course. The `CourseScores` interface in the `models/input.ts` file describes the input structure, and the `CourseScoreMetrics` interface in the `models/output.ts` file describes the structure of our metrics output. You are to write the code with the lowest complexity possible, while maintaining readability, and document cases where you made a tradeoff between readability and performance. Both input and output interfaces are documented to provide information on how to calculate the metrics.
+In this scenario, we have a user input that contains the assignments and raw scores of students for a particular course, and we would like to calculate metrics to give an overview of the performance of the course. The `CourseScores` interface in the `models/input.ts` file describes the input structure, and the `CourseScoreMetrics` interface in the `models/output.ts` file describes the structure of our metrics output. You are to write the code with the lowest time complexity possible, while maintaining readability, and document cases where you made a tradeoff between readability and performance. Both input and output interfaces are documented to provide information on how to calculate the metrics.
 
 ### Additional Instructions
 - You may use any additional NPM packages as you deem fit, but you may not use any external API calls.
