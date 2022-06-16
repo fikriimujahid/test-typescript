@@ -24,6 +24,9 @@ Key things we are focusing on are:
 ---
 
 ## Getting started
+
+> IMPORTANT: Our automated scripts to prepare submissions for grading requires the original git history to be retained in your submitted repository. If the script is unable to automatically clone your repository, it will **not be graded and failed immediately**. Steps 1 to 3 will allow you to create a private repo with the original git history :)
+
 As GitHub does not allow the forking of public repos to private repos, what you need to do instead is to clone this repo into a new personal private repo.
 
 ### 1. Create a new private repo
