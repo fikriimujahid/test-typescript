@@ -2,7 +2,7 @@
   "name": "connected-freight-be-take-home-assignment",
   "version": "0.0.0",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll --no-cache"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
@@ -11,5 +11,10 @@
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/validator": "^13.7.3",
+    "moment": "^2.29.3",
+    "validator": "^13.7.0"
   }
 }
